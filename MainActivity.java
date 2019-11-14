@@ -46,7 +46,7 @@ import static android.icu.text.Normalizer.NO;
 /*
 
 Software Criado por Jeferson dos Santos
-CPF:006-420-570-36
+ 
 Contato: jefersonfire@gmail.com
 
  */
@@ -94,14 +94,11 @@ public class MainActivity extends AppCompatActivity {
 
         //mAdView = findViewById(R.id.adView);
         //AdRequest adRequest = new AdRequest.Builder().build();
-       // mAdView.loadAd(adRequest);
-        MobileAds.initialize(this, "ca-app-pub-6828909553286825~5817339983");
+       // mAdView.loadAd(adRequest); 
         mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-        /*
-        * https://www.youtube.com/watch?v=ROKCWZj5OlA&feature=youtu.be
-        * https://developers.google.com/admob/android/quick-start?hl=pt-BR#import_the_mobile_ads_sdk
+        /* 
         * */
   //-----------------------------------------------------------------------------------------------------------------------------------------------------//
         //AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
